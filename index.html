@@ -19,33 +19,38 @@
 
 <body>
 
-<div class="section group">
-  <div class="col span_1_of_3">
-    This is column 1
-  </div>
-  <div class="col span_1_of_3">
-    This is column 2
-  </div>
-  <div class="col span_1_of_3">
-    This is column 3
+<div class="container-fluid">
+  <div class="row">
+    <div style="margin-left: 33.3%; margin-top: 2%;" class="col-md-4">
+      <img class="img-responsive" src="sponge.jpg">
+
+    </div>
   </div>
 </div>
-<img src="sponge.jpg" width="25%" height="auto">
 
-  <label for="exampleInputEmail1">tExT To Be SpoNgEMoCkeD heRe</label>
-  <textarea id="text" class="span7" rows="4" placeholder="Enter Text Here" style="resize: none;"></textarea>
+<div class="container-fluid">
+  <div class="row">
+    <div style="margin-left: 33.3%; margin-top: 2%;" class="col-md-6">
+      <textarea id="Words" cols="48" rows="4" width="50%" placeholder="Enter Text Here" style="resize: none;"></textarea>
+    </div>
+  </div>
+  <div class="row">
+    <div style="margin-left: 33.3%; margin-top: 2%;" class="col-md-6">
+      <button class="btn btn-default" type="button" onclick="button()"> SponGeMoCk </button>
+    </div>
+  </div>
+</div>
 
 
 
+<p  style="margin-left: 33.3%; margin-top: 2%;" id="text">This is your text</p>
 
-<button class="btn btn-default" type="button" onclick="button()"> SponGeMoCk </button>
 
 
-<p id="text"></p>
 
 
 <!-- JS that does the magic -->
-<script src="button.js"> </script>
+<script type="text/javascript" src="button.js"> </script>
 </body>
 
 </html>
